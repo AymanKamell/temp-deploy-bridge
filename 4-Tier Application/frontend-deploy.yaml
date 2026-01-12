@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: selconyt/bookstore-frontend:v1.3
+        image: selconyt/frontend:v1.5
         ports:
         - containerPort: 8080
 ---
@@ -30,4 +30,5 @@ spec:
   ports:
     - port: 80
       targetPort: 8080
+
 
