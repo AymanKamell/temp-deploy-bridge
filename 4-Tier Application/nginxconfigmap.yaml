@@ -4,7 +4,7 @@ kind: ConfigMap
 metadata:
   name: backend-nginx-proxy
   namespace: bookstore-platform
-
+data:
   nginx.conf: |
     events {}
     http {
